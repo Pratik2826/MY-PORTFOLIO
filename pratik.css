@@ -1,0 +1,204 @@
+* {
+    margin: 0%;
+
+}
+
+body {
+    background-color: rgb(173, 202, 227);
+}
+
+/* this is my navigation menu */
+#nav {
+    overflow: auto;
+}
+
+#nav li {
+
+    float: left;
+    list-style: none;
+    margin-right: 34px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+#nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color: blue;
+
+}
+
+/* This is my actual content */
+
+.container {
+    margin-top: 50px;
+    display: flex;
+}
+
+
+#h1 {
+    color: white;
+    display: inline-block;
+    width: 41%;
+    padding-top: 3%;
+    margin-left: 20%;
+    font-family: Sans-serif;
+    font-size: 4em;
+}
+
+#myimg {
+
+    width: 15%;
+    height: 15%;
+    margin-left: 2%;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+
+#kk {
+    display: flex;
+    overflow: auto;
+}
+
+#web {
+
+    margin-top: 50px;
+    margin-left: 21%;
+    border: solid black;
+    width: 14%;
+    height: 10%;
+    border-radius: 27px;
+}
+
+#skill {
+    padding: 10px;
+    margin-top: 37px;
+    margin-left: 23px;
+    color: rgb(234, 255, 254);
+}
+
+#skill2 {
+    margin-top: 48px;
+    background-color: aliceblue;
+
+    min-height: 250px;
+}
+
+.wave {
+    margin-top: 37%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 218px;
+    transform: rotateY(180deg);
+
+}
+
+.wave .shape-fill {
+    fill: rgb(173, 202, 227);
+}
+
+/* From here i am writing professional skills section */
+
+#skill3 {
+    min-height: 469px;
+    background-color: aliceblue;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+span {
+    display: flex;
+    overflow: auto;
+    margin-top: 30px;
+}
+
+#ht {
+    height: 10%;
+    margin-top: 10px;
+    margin-left: 58px;
+    border-radius: 31px;
+}
+
+.mar {
+
+    margin-top: 10px;
+    margin-left: 104px;
+    border-radius: 35px;
+
+}
+
+.des{
+    margin-left: 10px;
+    margin-top: 38px;
+    display: flex;
+    /* float: inline-start; */
+}
+
+.pk{
+    margin-left: 35px;
+}
+#hk{
+    margin-right: 37px;
+}
+
+#jv{
+    margin-left: 153px;
+}
+
+#py{
+    margin-left: 156px;
+}
+
+
+/* from here i am contact me */
+
+#contactme{
+    margin-left: 10px;
+    margin-top: 20px;
+    min-height: 200px;
+}
+#g{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#ph{
+    margin-left: 21px;
+}
+
+.ins{
+    margin-left: 44%;
+    
+}
+
+#ta{
+    width: 7%;
+    border-radius: 10px;
+}
+
+#ub{
+    width: 11%;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#in{
+    width: 7%;
+    border-radius: 10px;
+    margin-left: 10px;
+}
